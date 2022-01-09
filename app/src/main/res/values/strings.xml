@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">TOFFELS</string>
+    <string name="header" translatable="false">Create Your Account</string>
+    <string name="fNameInput" translatable="false">First Name</string>
+    <string name="fName" translatable="false">First Name</string>
+    <string name="lName" translatable="false">Last Name</string>
+    <string name="lNameInput" translatable="false">Last Name</string>
+    <string name="Email" translatable="false">Email</string>
+    <string name="EmailInput" translatable="false">abc@gmail.com</string>
+    <string name="Phone" translatable="false">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="city" translatable="false">City</string>
+    <string name="cityInput" translatable="false">city</string>
+    <string name="emailInput" translatable="false">abc@gmail.com</string>
+    <string name="Fname" translatable="false">First Name</string>
+    <string name="Lname" translatable="false">Last Name</string>
+    <string name="cityIn" translatable="false">City</string>
+    <string name="editText4" translatable="false">078 64874152</string>
+    <string name="statement">We sent you a code verify your phone number</string>
+    <string name="statements" translatable="false">We sent you a code to verify your phone number</string>
+    <string name="st1" translatable="false">Don\'t recive OTP?</string>
+    <string name="statement1" translatable="false">Don\'t receive OTP?</string>
+    <string name="resend" translatable="false">Resend Code</string>
+    <string name="verifybtn">Verify and Continue</string>
+    <string name="header1">Edit User Details</string>
+    <string name="Fname1">First Name</string>
+    <string name="fnameinput">First name</string>
+    <string name="Lastname1">Last Name</string>
+    <string name="phoneinput">0715144989</string>
+    <string name="passinput">******</string>
+    <string name="passwordinput">******</string>
+    <string name="buttonsub">Submit</string>
+    <string name="buttoncancel">Cancel</string>
+    <string name="userheader">User Management</string>
+    <string name="Fnamet">Fname</string>
+    <string name="Lnamet">Lname</string>
+    <string name="Emailt">Email</string>
+    <string name="Phonet">Phone</string>
+    <string name="Cityt">City</string>
+    <string name="Actiont">Action</string>
+    <string name="editbtn">Edit</string>
+    <string name="deletebtn">Delete</string>
+    <string name="buttonin">CONTINUE</string>
+    <string name="testbtn">SignUp</string>
+    <string name="pDate2">mm/dd/yyyy</string>
+    <string name="vehType">Vehicle Type</string>
+    <string name="owName">Owner Name</string>
+    <string name="owNIC">Owner NIC</string>
+    <string name="vehNo">Vehicle Number</string>
+    <string name="vehEngno">Vehicle Engine Number</string>
+    <string name="btnview">View</string>
+    <string name="btnadd">Add</string>
+    <string name="btnupdate">Update</string>
+    <string name="btndelete">Delete</string>
+    <string name="id">ID</string>
+    <string name="btnreserve">Reservation</string>
+    <string name="btnadd1">ADD</string>
+    <string name="btnupdate1">EDIT</string>
+    <string name="btndel1">DELETE</string>
+    <string name="btnview1">VIEW ALL</string>
+    <string name="text3">Vehicle Type</string>
+    <string name="text4">Owner Name</string>
+    <string name="text5">Owner NIC</string>
+    <string name="text6">Vehicle Number</string>
+    <string name="text7">Vehicle Engine Num</string>
+    <string name="text8">ID</string>
+    <string name="btn5">LOG IN</string>
+    <string name="btn6">Order a Vehicle</string>
+    <string name="btn7">Create an account</string>
+    <string name="txt2">Let\'s ride</string>
+    <string name="text9">With BROOM.LK</string>
+    <string name="text10">We\'ll take you anywere</string>
+    <string name="lmail">Email</string>
+    <string name="lpassword">Password</string>
+    <string name="lbtn">LOG IN</string>
+    <string name="fpassword">Forgot Password</string>
+    <string name="lmbtn">LOG IN</string>
+    <string name="pays">Payment Details</string>
+    <string name="pays2">We Accepted</string>
+    <string name="paym">Payment Method</string>
+    <string name="crdno">Card Number</string>
+    <string name="exdate">Expire Date</string>
+    <string name="cvvno">CVV NO</string>
+    <string name="abtn">ADD</string>
+    <string name="sbtn">SHOW</string>
+    <string name="ubtn">UPDATE</string>
+    <string name="dbtn">DELETE</string>
+    <string name="pmbtn">Payment</string>
+    <string name="admin">Admin</string>
+    <string name="txtAdd">Add Vehicle</string>
+    <string name="textveh">Vehicle Type</string>
+    <string name="edsearch">SEARCH</string>
+    <string name="d65btn">DELETE</string>
+    <string name="eduser">User Name</string>
+    <string name="uin">User Name</string>
+    <string name="usertxt">User Name</string>
+    <string name="btnsub">SUBMIT</string>
+    <string name="lusername">User Name</string>
+    <string name="holdername">Card Holder\'s Name</string>
+    <string name="testpay">Payment</string>
+    <string name="edst1">Edit Payment Details</string>
+    <string name="edst2">We Accepted</string>
+    <string name="edholder">Card Holder\'s Name</string>
+    <string name="edpsearch">SEARCH</string>
+    <string name="edcnum">Card Number</string>
+    <string name="eddate">Expire Date</string>
+    <string name="edcv">CVV NO</string>
+    <string name="edpbtn">EDIT</string>
+    <string name="pedbtn">DELETE</string>
+    <string name="lable2">"Pick-Up Date "</string>
+    <string name="lable3">Return Date</string>
+    <string name="lable4">Vehicle Modle</string>
+    <string name="lable5">Vehicle Sub Modle</string>
+    <string name="pDate">MM/DD/YYYY</string>
+    <string name="rDate">MM/DD/YYYY</string>
+    <string name="add">Book Now</string>
+    <string name="view">View</string>
+    <string name="edit">Edit</string>
+    <string name="search">SEARCH</string>
+    <string name="delete">DELETE</string>
+    <string name="submit">SUBMIT</string>
+    <string name="adminpanel">ADMIN PANEL</string>
+    <string name="vehreg">Vehicle Registration</string>
+    <string name="drireg">Driver Registration</string>
+    <string name="btnBook">BOOK NOW</string>
+    <string name="drivername">Driver name</string>
+    <string name="dataOfBirth">Date of Birth</string>
+    <string name="nic">NIC</string>
+    <string name="age">Age</string>
+    <string name="username">User Name</string>
+    <string name="book">BOOK</string>
+    <string name="car">A CAR TODAY.....!</string>
+    <string name="select">Choose One</string>
+    <string name="thanks">Thank You for getting Our service</string>
+    <string name="home">OK</string>
+    <string name="fed1">Customer Feedback</string>
+    <string name="fed2">Are you satisfy with our service ?</string>
+    <string name="fed3">Rate Us !</string>
+    <string name="fed4">Any thing else !</string>
+    <string name="btnSkip">Skip</string>
+    <string name="feddel">ID for Delete</string>
+    <string name="fedEdit">Id for Edit</string>
+    <string name="paySub">Submit</string>
+    <string name="fededitdel"><![CDATA[ID for EDIT & DELETE]]></string>
+    <string name="test">test</string>
+    <string name="firstpage">Get Ride With Broom.lk </string>
+    <string name="rescar">Reserve Your Vehicle Now!</string>
+    <string name="sub">SUBMIT</string>
+    <string name="login">Login</string>
+</resources>

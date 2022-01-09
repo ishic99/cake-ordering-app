@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mad.toffels">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TOFFELS">
+        <activity android:name=".ShoppingCart.EditPurchase"></activity>
+        <activity android:name=".ShoppingCart.MyCart" />
+        <activity android:name=".ShoppingCart.ViewItems" />
+        <activity android:name=".Financial.Thankyou" />
+        <activity android:name=".Financial.AddPayment" />
+        <activity android:name=".Financial.EditPayment" />
+        <activity android:name=".AddItems.EditItem" />
+        <activity android:name=".AddItems.addItem" />
+        <activity android:name=".AddItems.Items" />
+        <activity android:name=".OrderConfiremation" />
+        <activity android:name=".OrderDetails" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

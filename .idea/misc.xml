@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Asus/Desktop/TOFFELS/app/src/main/res/layout/activity_add_item.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/Asus/Desktop/TOFFELS/app/src/main/res/layout/activity_add_payment.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/Asus/Desktop/TOFFELS/app/src/main/res/layout/activity_edit_item.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/Asus/Desktop/TOFFELS/app/src/main/res/layout/activity_edit_payment.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/Asus/Desktop/TOFFELS/app/src/main/res/layout/activity_edit_purchase.xml" value="0.16485507246376813" />
+        <entry key="..\:/Users/Asus/Desktop/TOFFELS/app/src/main/res/layout/activity_items.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/Asus/Desktop/TOFFELS/app/src/main/res/layout/activity_main.xml" value="0.19021739130434784" />
+        <entry key="..\:/Users/Asus/Desktop/TOFFELS/app/src/main/res/layout/activity_my_cart.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/Asus/Desktop/TOFFELS/app/src/main/res/layout/activity_order_confiremation.xml" value="0.14402173913043478" />
+        <entry key="..\:/Users/Asus/Desktop/TOFFELS/app/src/main/res/layout/activity_order_details.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/Asus/Desktop/TOFFELS/app/src/main/res/layout/activity_thankyou.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/Asus/Desktop/TOFFELS/app/src/main/res/layout/activity_view_items.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/Asus/Desktop/TOFFELS/app/src/main/res/layout/popup.xml" value="0.12360688956433637" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

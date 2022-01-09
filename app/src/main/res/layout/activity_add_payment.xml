@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4B6C6"
+    tools:context=".Financial.AddPayment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Payment Details"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="600dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:foregroundGravity="center_horizontal"
+        app:cardCornerRadius="40dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/pay5"/>
+
+        <EditText
+            android:id="@+id/payText"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="150dp"
+            android:hint="Card Holder Name"
+            android:textAlignment="center"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/payText2"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="200dp"
+            android:hint="Card Number"
+            android:textAlignment="center"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/payText3"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="250dp"
+            android:hint="Expire Date"
+            android:textAlignment="center"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/payText4"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="300dp"
+            android:hint="CVV No"
+            android:textAlignment="center"
+            android:ems="10"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginTop="400dp"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/PaymentBtn"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:backgroundTint="#F30355"
+                android:layout_marginEnd="10dp"
+                />
+            <Button
+                android:id="@+id/PaymentBtn1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:layout_weight="1"
+                android:backgroundTint="#F30355"
+                android:layout_marginStart="10dp"/>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

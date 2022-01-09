@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:background="@drawable/cerbackground"
+    android:layout_gravity="center"
+    tools:context=".Financial.Thankyou">
+
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="230dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/thank"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Successful"
+        android:textSize="28sp"
+        android:fontFamily="@font/vvc1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/thanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="welcome"
+        android:textSize="28sp"
+        android:fontFamily="@font/vvc1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"/>
+</RelativeLayout>

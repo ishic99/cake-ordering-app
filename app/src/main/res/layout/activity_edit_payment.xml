@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Financial.EditPayment">
+
+
+    <TextView
+        android:id="@+id/edst1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/edst1"
+        android:textAlignment="center"
+        android:textColor="#100F0F"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/edst2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginRight="250dp"
+        android:text="@string/edst2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/pay5" />
+
+    <EditText
+        android:id="@+id/edholder"
+        android:layout_width="181dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="190dp"
+        android:hint="@string/edholder"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/edpsearch"
+        android:layout_width="104dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="190dp"
+        android:background="#F30355"
+        android:backgroundTint="#F30355"
+        android:text="@string/edpsearch"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/edcnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        android:ems="10"
+        android:hint="@string/edcnum"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/eddate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:ems="10"
+        android:hint="@string/eddate"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edcv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:hint="@string/edcv"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp">
+
+        <Button
+            android:id="@+id/edpbtn"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#F30355"
+            android:backgroundTint="#F30355"
+            android:text="Pay Now"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/pedbtn"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:background="#F30355"
+            android:backgroundTint="#F30355"
+            android:text="@string/pedbtn"
+            android:textColor="#000" />
+    </LinearLayout>
+
+</RelativeLayout>
